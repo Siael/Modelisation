@@ -1,0 +1,3 @@
+import mdtraj as md
+t = md.load('C:\Users\pik\Desktop\Travail\Modelisation\Projets_modelisations\p7\md_complete300ns.xtc', top = 'C:\Users\pik\Desktop\Travail\Modelisation\Projets_modelisations\p7\start.pdb')
+print t
